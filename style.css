@@ -1,0 +1,142 @@
+.tittle {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.underline{
+    margin: auto;
+    width: 100px;
+    height: 5px;
+    background-color: goldenrod;
+}
+
+.btn-container {
+    display: flex;
+    margin: 20px 40%;
+    justify-content: space-evenly;
+}
+.section-center {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 5% 10%;
+}
+
+.menu-item {
+    display: flex;
+    width: 600px;
+    height: 150px;
+    margin-bottom: 20px;
+    align-items: center;
+    flex-basis: calc(50% - 240px);
+}
+
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: auto 5%
+}
+
+.underline-header {
+    height: 1px;
+    width: 100%px;
+    margin: auto 5%;
+    background-color: grey;
+}
+
+.item-text {
+    position:relative;
+    margin: 9% 10%;
+}
+
+
+img {
+    flex: 0 0 auto;
+    border: 5px solid goldenrod;
+    border-radius: 10px;
+    /* margin-right: 10%; */
+    width: 208px;
+    height: 150px;
+}
+
+h2 {
+    margin-top: 5%;
+    margin-bottom: 2px;
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+/* buttons stylies */
+.filter-btn {
+    background-color: goldenrod; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+
+    .gold {
+    background-color: white; 
+    color: black; 
+    border: 2px solid gold;
+    border-radius: 5px;
+    }
+
+    .gold:hover {
+    background-color: gold;
+    color: white;
+    }
+
+
+
+
+/* -------------------------- */
+/* 2x2 using flexbox  */
+.grid2x2 {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  }
+  .grid2x2 > div {
+    display: flex; 
+    flex-basis: calc(50% - 40px);  
+    justify-content: center;
+    flex-direction: column;
+  }
+  .grid2x2 > div > div {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+  
+  .box { margin: 20px; }
+  .box1 { background-color: red; }
+  .box2 { background-color: orange; }
+  .box3 { background-color: purple; }
+  .box4 { background-color: grey; }
+  
+  
+  
+  
+  
+  
+  
